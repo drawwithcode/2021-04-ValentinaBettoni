@@ -1,8 +1,14 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
 canvas {
   display: block;
+
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
 }
